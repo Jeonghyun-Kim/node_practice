@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const path = require('path');
 const session = require('express-session');
 const flash = require('connect-flash');
-rerquire('dotenv').config();
+require('dotenv').config();
 
 const pageRouter = require('./routes/page');
 
